@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+*{  /* Pone estilo a todo el sitio*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body {
+    font-family: 'Bangers', cursive;
+}
+
+#izq {
+    width: 48%;
+    height: 350px;
+    background-color: blueviolet;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 5px 10px royalblue;
+    
+     }
+
+#der {
+    width: 48%;
+    height: 350px;
+    background-color: blueviolet;
+    float: right;
+    margin-left: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-shadow: 1px 5px 10px greenyellow;
+    
+}
+
+.imagen1 {
+    width: 100%;
+}
+
+header {
+    background-color: khaki;
+    width: 100%;
+    height: 80px;
+    box-shadow: royalblue;
+}
+
+nav {
+    width: 30%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: seagreen;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+    padding: 5px 15px;
+    font-size: 30px;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
